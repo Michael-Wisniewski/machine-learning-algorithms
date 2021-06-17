@@ -1,0 +1,16 @@
+{
+  "load_extensions": {
+    "toc2/main": true,
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "Notebook": {
+    "Header": true,
+    "Toolbar": true
+  }
+}

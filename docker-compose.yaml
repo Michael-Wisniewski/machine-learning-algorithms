@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jupyter:
+    image: machine-learning-algorithms
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: machine-learning-algorithms
+    volumes:
+      - ./src:/home/jovyan
+    ports:
+      - 8888:8888
